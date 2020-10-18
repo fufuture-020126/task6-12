@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            任务六
+        </title>
+        <style>
+            .newspaper
+            {
+                background-color: white;
+                width:980px;
+                height:1560px;
+                margin: 0 auto;
+            }
+            .pageheader
+            {
+                background-color: white;
+                width:892px;
+                height:61px;
+                margin:0 auto;
+                position:relative;
+                border-bottom: 2px solid #939e8c;
+            }
+            .pageheader1
+            {
+                background-image:url("../images/lol1.png");
+                width:167px;
+                height:61px;
+                display:table;
+                float:left;
+            }
+            .pageheader1 p
+            {
+                font-size: 12px;
+                font-family: 黑体;
+                display:table-cell;
+                vertical-align: bottom;
+                text-align: center;
+            }
+            .pageheader2
+            {
+                position:absolute;
+                right:0px;
+                bottom:0px;
+            }
+            .newspapermain
+            {
+                width:892px;
+                margin:30px auto;
+                position:relative;
+            }
+            .heroes
+            {
+                width:641px;
+                height:301px;
+                position:absolute;
+                float: left;
+            }
+            .cover-left
+            {
+                width:191px;
+                height:301px;
+                background-color: rgba(69, 173, 69, 0.2);
+                position:absolute;
+                top:0px;
+                left:0px;
+            }
+            .cover-right
+            {
+                width:191px;
+                height:301px;
+                background-color: rgba(204, 58, 58, 0.2);
+                position:absolute;
+                top:0px;
+                right:0px;
+            }
+            .about
+            {
+                width:203px;
+                height:301px;
+                margin: 0px 20px;
+                float:right;
+                border-top: 2px solid #cc8091;
+            }
+            .about1
+            {
+                font-size: 24px;
+                font-family: 微软雅黑;
+                color: #000000;
+                line-height: 20px;
+                text-transform: capitalize;
+                font-variant: small-caps;
+                position: relative;
+            }
+            .about2
+            {
+                font-size: 12px;
+                color: #676767;
+                font-family: 楷体;
+                line-height: 10px;
+                text-transform: capitalize;
+                font-variant: normal;
+                position: absolute;
+                top: 31px;
+            }
+            .about3
+            {
+                color: #75b86b;
+                font-size: 116px;
+                font-family: 微软雅黑;
+                font-style: oblique;
+                text-decoration: underline;
+            }
+            .about4
+            {
+                font-size: 55px;
+                color:#cc8091;
+                font-family: 微软雅黑;
+                float:left;
+            }
+            .about5
+            {
+                font-size: 72px;
+                position:relative;
+                top:18px;
+            }
+            .about5-1
+            {
+                font-size: 21px;
+                font-family: 微软雅黑;
+                color:#cc8091;
+            }
+            .about5-2
+            {
+                font-size: 12px;
+                font-family: 微软雅黑;
+                color:#cc8091;
+            }
+            .teams
+            {
+                width:641px;
+                position: relative;
+                top:320px;
+            }
+            .teams-TES
+            {
+                width:220px;
+                height:247px;
+            }
+            .teams-SNG
+            {
+                width:220px;
+                height:247px;
+                left:250px;
+                position: absolute;
+                top:0px;
+            }
+            .teams-win
+            {
+                position:absolute;
+                top:0px;
+                left: 500px;
+            }
+            .artical
+            {
+                width:415px;
+                height:650px;
+                position: relative;
+                float: left;
+                top:300px;
+            }
+            .last
+            {
+                width:458px;
+                height:650px;
+                float: right;
+            }
+            .footer
+            {
+                width:892px;
+                border-top:1px solid #938e8c;
+                height:40px;
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                top:1400px ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="newspaper">
+            <div class="pageheader">
+                <div class="pageheader1">
+                    <p><a href="https://lol.qq.com/act/a20200922competition/index.html?e_code=507042" target="blank" style="color:black;">点击前往官网</a></p>
+                </div>
+                <div class="pageheader2">
+                    <p style="font-size: 12px; font-family: 黑体;color: black;">2020.10.16</p>
+                </div>
+            </div>
+            <div class="newspapermain">
+                    <div class="heroes">
+                        <img src="../images/lol2.jpg" width=641px height=301px>
+                        <div class="cover-left"></div>
+                        <div class="cover-right"></div>
+                    </div>
+                    <div class="about">
+                        <div class="about1">
+                            <p style="text-decoration: underline;">about<br>
+                            league of legends</p>
+                            <p class="about2">
+                                about league of legends
+                                about league of legends
+                                about league of legends
+                                about league of legends
+                            </p>
+                        </div>
+                        <div class="about3">
+                            LOL
+                        </div>
+                        <div class="about4">
+                            S10
+                        </div>
+                        <div class="about5">
+                            <div class="about5-1">
+                                LPL
+                            </div>
+                            <div class="about5-2">
+                                冲冲冲冲冲！
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teams">
+                        <div class="teams-TES">
+                            <h style="text-decoration: underline;color: #418c59;font-family: 微软雅黑;font-size: 16px;"><b>TES</b></h>
+                            <p style="font-size: 12px;color: #767777;font-family: 宋体;line-height: 16px;opacity: 0.7;margin-top: 10px;margin-bottom: 40px;">
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油</p>
+                        </div>
+                        <div class="teams-SNG">
+                            <h style="text-decoration: underline;font-size: 16px;color:#d2994f;font-weight: bold;"><b>SNG</b></h>
+                            <p style="font-size:12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;margin-top: 10px;margin-bottom: 40px;">
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油</p>
+                        </div>
+                        <div class="teams-win">
+                            <h style="font-size: 16px;color:#cc7680;font-weight: bold;text-decoration: underline;"><b>WIN</b></h>
+                            <p style="font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 20px;opacity: 0.7;margin-top: 10px;margin-bottom: 20px;">
+                            加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                            </p>
+                            <div style="font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;">
+                            加油--------</div>
+                            <div style="font-size: 12px;color:#cd4a84;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;font-style: italic;">
+                            加油</div>
+                            <br>
+                            <div style="font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;">
+                            加油--------</div>
+                            <div style="font-size: 12px;color:#cd4a84;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;font-style: italic;">
+                             加油</div>
+                             <br>
+                             <div style="font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;">
+                            加油--------</div>
+                            <div style="font-size: 12px;color:#cd4a84;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;font-style: italic;">
+                            加油</div>
+                        </div>
+                    </div>
+                    <div class="artical">
+                       <div style="padding-bottom: 10px;border-bottom: 2px solid #11456b;">
+                        <h style="font-size:72px;color:#f5e327;font-family: 黑体;font-weight: bold;font-style: italic;">
+                        LPL</h>
+                        <h style="font-size: 42px;color:#11456b;font-family: 黑体;font-weight: bold;line-height: 58px;">
+                        FIGHTING FIGHTING FIGHTING</h><br>
+                        <h style="font-size:33px;color:#11456b;font-family: 黑体;font-weight: bold;">
+                        LPL加油加油加油</h>
+                        </div>
+                        <p style="font-size: 70px;color:#f5e327;font-family: 微软雅黑;float: left;margin-top:10px;margin-bottom: 0%;">
+                        LPL</p>
+                        <p style="font-size: 12px;color:#767777;font-family: 宋体;line-height: 18px;margin-top: 20px;">
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油</p>
+                        <img src="../images/lol3.jpg" width=229 height=335 style="float: right; ">
+                        <p style="text-indent: 2em;font-size: 12px;color:#767777;font-family: 宋体;line-height: 18px;">
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油</p>
+                        <p style="text-indent: 2em;font-size: 12px;color:#767777;font-family: 宋体;line-height: 18px;">
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油
+                        加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油加油</p>
+                    </div>
+                    <div class="last">
+                        <div style="width: 458px;height: 275px;position: relative;margin-top: 10px;top: 300px;">
+                        <img src="../images/lol4.jpg"width=458px height=275px opacity=0.7>
+                        <div style="width: 458px;height: 61px;position: absolute;left: 0px;bottom: 0px;background-color: rgb(10, 9, 9,0.5);display: table;">
+                        <div style="height: 44px;font-size: 26px;color: #ffffff;font-family: 微软雅黑;padding: 0px 10px;margin-left: 40px;margin-top: 10px;border-left: 3px solid #72b16a;display: inline-block;">
+                        2020</div>
+                        <div style="font-size:15px;color:#72b16a;font-style: italic;font-family: 微软雅黑;line-height: 140%;height: 30px;margin: 10px;display: table-cell;vertical-align: middle;position: relative;right: 100px;">
+                        英雄联盟全球总决赛</div>
+                        </div>
+                        </div>
+                        <div style="width: 459px;height:460px;background-color: #eeeed6;margin-top: 30px;position: relative;top: 300px;line-height: 40px;">
+                                <div style="text-align: center;font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;">
+                                @ 加油-------------------------------------------</div>
+                                <div style="text-align: center;font-size: 12px;color:#cd4a84;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;font-style: italic;">
+                                加油</div>
+                                <br>
+                                <div style="text-align: center;font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;">
+                                @ 加油-------------------------------------------</div>
+                                <div style="text-align: center;font-size: 12px;color:#cd4a84;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;font-style: italic;">
+                                加油</div>
+                                <br>
+                                <div style="text-align: center;font-size: 12px;color:#231815;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;">
+                                @ 加油-------------------------------------------</div>
+                                <div style="text-align: center;font-size: 12px;color:#cd4a84;font-family: 微软雅黑;line-height: 16px;opacity: 0.7;display: inline;font-style: italic;">
+                                加油</div>
+                                <div style="width: 260px;height:160px;background-color: #d55d5c;box-sizing: border-box;padding: 20px 10px;bottom: 0px;left: 0px;position: absolute;">
+                                    <div style="font-size:110px;color:#ffffff;font-family: 微软雅黑;border-right: 2px solid #ffffff;height: 86px;line-height: 86px;float: left;">
+                                    S</div>
+                                    <div style="font-size: 21px;color: #ffffff;font-family: 黑体;font-style: italic;line-height: 24px;padding-left: 5px;">
+                                    加油加油<br>加油加油加油加油</div>
+                                    <div style="font-size:12px;color: #ffffff;font-family:黑体;line-height: 16px;margin-left: 5px;display: block;padding-left: 5px;">
+                                    加油加油加油加油加油加油加油加油加油</div>
+                                </div>
+                                <div style="width:160px;height:160px;position: absolute;bottom: 0px;right: 0px;margin: 20px 20px 0 20px;">
+                                    <p style="font-size: 14px;color:#5a5b5b;font-family: 黑体;font-style: italic;line-height: 16px;">
+                                    LPL加油加油加油 LPL加油加油加油 LPL加油加油加油 LPL加油加油加油 LPL加油加油加油 LPL加油加油加油
+                                    LPL加油加油加油 LPL加油加油加油 LPL加油加油加油 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div style="position: absolute;right: 0px;top: 0px;">
+                            <p style="font-size: 12px;font-family: 黑体;">
+                                <a href="https://lol.qq.com/act/a20200922competition/index.html?e_code=507042" target="blank" style="color: black;">
+                                <b>点击前往官网</b></a>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
